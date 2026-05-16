@@ -1,0 +1,47 @@
+# --- Bağımlılıklar ve Geçici Dosyalar ---
+**/node_modules/
+**/.pnp
+.pnp.js
+**/coverage/
+**/build/
+**/dist/
+
+# --- Çevre Değişkenleri (Çok Kritik: Şifreler ve API Anahtarları GitHub'a Gitmemeli) ---
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/.env*.local
+
+# --- İşletim Sistemi Log Dosyaları ---
+.DS_Store
+Thumbs.db
+**/npm-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# --- Mobil Proje (Flutter / Android / iOS) Özel Dosyaları ---
+**/build/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/Generated.xcconfig
+**/FlutterWithRTM.podspec
+**/.pub-cache/
+**/.pub/
+**/android/.gradle/
+**/android/local.properties
+**/ios/.symlinks/
+**/ios/Pods/
+**/ios/DerivedData/
+
+# --- IDE (Editör) Ayarları ---
+**/.vscode/
+**/.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
