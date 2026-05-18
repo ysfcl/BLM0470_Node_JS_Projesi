@@ -1,0 +1,1 @@
+/* # Sensörlerin arka planda çalışıp veri gönderdiği ana ekran */

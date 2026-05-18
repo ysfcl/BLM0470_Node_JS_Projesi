@@ -1,0 +1,1 @@
+/* # Sensörlerin aktif olup olmadığını gösteren küçük widget */

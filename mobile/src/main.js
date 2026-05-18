@@ -1,0 +1,1 @@
+/* # Mobil uygulamanın başlangıç noktası (App.js) */

@@ -1,0 +1,1 @@
+/* # React'ın DOM'a bağlandığı kök dosya */

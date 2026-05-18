@@ -1,0 +1,1 @@
+/* # Geçmişe dönük düşme/hareketsizlik alarm listesi */ 

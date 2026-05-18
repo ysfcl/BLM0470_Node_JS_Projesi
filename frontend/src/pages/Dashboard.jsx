@@ -1,0 +1,1 @@
+/* # Canlı sensör verilerinin akacağı ana panel */

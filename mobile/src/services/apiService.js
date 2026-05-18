@@ -1,0 +1,1 @@
+/* # Toplanan verileri backend'e POST eden fonksiyonlar */

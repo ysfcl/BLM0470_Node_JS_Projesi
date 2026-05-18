@@ -1,0 +1,1 @@
+/*# İvme verilerini canlı çizecek grafik bileşeni*/
