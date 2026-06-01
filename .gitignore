@@ -6,7 +6,7 @@
 **/build/
 **/dist/
 
-# --- Çevre Değişkenleri (Çok Kritik: Şifreler ve API Anahtarları GitHub'a Gitmemeli) ---
+# --- Çevre Değişkenleri (Şifreler ve API Anahtarları GitHub'a yüklenmemeli) ---
 **/.env
 **/.env.local
 **/.env.development.local
