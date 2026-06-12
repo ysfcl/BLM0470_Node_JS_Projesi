@@ -1,1 +1,0 @@
-/* # Kullanıcının giriş yapıp yapmadığını tutan global state */
