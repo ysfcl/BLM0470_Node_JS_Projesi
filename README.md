@@ -12,6 +12,11 @@ Sistem, üç ana katmandan oluşan dağıtık bir yapıya sahiptir:
 2. **Backend (Sunucu):** Node.js ve Express.js ile geliştirilmiştir. Socket.io üzerinden anlık haberleşmeyi sağlar ve JWT ile güvenli kimlik doğrulaması gerçekleştirir.
 3. **Frontend (Dashboard):** HTML5, Tailwind CSS ve Chart.js ile geliştirilmiş, operatörlerin verileri anlık takip edebildiği bir SPA (Single Page Application) arayüzüdür.
 
+Projede Emeği Geçenler:
+** -Asım Burak Öztürk
+** -Selman Çetin
+** -Yusuf Çil
+
 ## 🛠️ Kullanılan Teknolojiler
 
 * **Backend:** Node.js, Express.js, MongoDB (Mongoose), Socket.io, JWT, Bcrypt.
