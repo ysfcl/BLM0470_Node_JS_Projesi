@@ -128,7 +128,6 @@
         let updateInterval = null;
         let anomalyChart = null;
 
-        // Sayfa Yüklendiğinde Token Kontrolü Yap
         document.addEventListener('DOMContentLoaded', () => {
             initChart();
             const token = localStorage.getItem('token');
@@ -136,7 +135,7 @@
                 showDashboard();
             }
 
-            // Login formunu dinle
+            
             document.getElementById('login-form').addEventListener('submit', handleLogin);
         });
 
@@ -198,7 +197,7 @@
             // Önceki verileri temizle (cache yok etmek için)
             resetDashboard();
 
-            // İlk veriyi çek ve 4 saniyelik döngüyü başlat
+            // İlk veriyi çek ve 4 saniyelik döngü
             fetchDashboardData();
             updateInterval = setInterval(fetchDashboardData, 4000);
         }
@@ -251,8 +250,7 @@
                     document.getElementById('table-status').textContent = "Canlı Veri Bağlantısı";
                     document.getElementById('table-status').className = "text-xs font-mono text-emerald-400";
 
-                    // Gelen gerçek verileri işle
-                    // --- YENİ EKLENEN FİLTRELEME BLOĞU ---
+                    // Gelen verileri işle
 let alarms = result.data || [];
 const userRole = localStorage.getItem('userRole') || 'user';
 const currentUser = JSON.parse(localStorage.getItem('user') || '{}');
