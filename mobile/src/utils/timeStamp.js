@@ -1,1 +1,0 @@
-/* # Her sensör kaydına milisaniyelik zaman damgası üreten araç */

@@ -1,1 +1,0 @@
-/* # Backend'e gidecek veri paketinin şablon tanımı */

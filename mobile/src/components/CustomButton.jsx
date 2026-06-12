@@ -1,1 +1,0 @@
-/* # Ortak buton tasarımları */

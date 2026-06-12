@@ -1,1 +1,0 @@
-/* # Telefonun ivmeölçer ve GPS verilerini donanımdan çeken kodlar */
