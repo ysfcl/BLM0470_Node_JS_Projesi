@@ -1,1 +1,0 @@
-/*# Giriş ekranı arayüzü */
