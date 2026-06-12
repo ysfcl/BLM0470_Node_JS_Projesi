@@ -1,1 +1,0 @@
-/*# Ekrana düşecek anlık alarm pencereleri*/
