@@ -41,3 +41,29 @@ Projede Emeği Geçenler:
    PORT=5000
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_secret_key
+
+bash# backend klasöründe
+$env:MONGODB_URI="mongodb+srv://lutfenol:1907@cluster0.tifkb62.mongodb.net/fall-detection"; $env:JWT_SECRET="blm0470secret"; $env:PORT="5000"; node app.js
+ngrok (ayrı terminal):
+bashnpx ngrok http 5000
+Mobil (ayrı terminal):
+bash# fall-detection2 klasöründe
+npx expo start --tunnel
+
+Gerekli paketler:
+Backend klasöründe:
+bashnpm install
+
+Mobil klasöründe:
+bashnpm install --legacy-peer-deps
+npm install babel-preset-expo --save-dev
+npx expo install @react-native-async-storage/async-storage
+npx expo install expo-sensors
+
+Önemli: ngrok her başlatıldığında yeni URL gelir. O zaman ApiService.js ve frontend HTML'deki BASE_URL'i güncellemen gerekir.
+
+
+### Frontend
+npx http-server
+http://localhost:8080/src/index.html
+
