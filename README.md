@@ -43,7 +43,6 @@ Projede Emeği Geçenler:
    JWT_SECRET=your_secret_key
 
 bash# backend klasöründe
-$env:MONGODB_URI="mongodb+srv://lutfenol:1907@cluster0.tifkb62.mongodb.net/fall-detection"; $env:JWT_SECRET="blm0470secret"; $env:PORT="5000"; node app.js
 ngrok (ayrı terminal):
 bashnpx ngrok http 5000
 Mobil (ayrı terminal):
