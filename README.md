@@ -61,6 +61,9 @@ npx expo install expo-sensors
 
 Önemli: ngrok her başlatıldığında yeni URL gelir. O zaman ApiService.js ve frontend HTML'deki BASE_URL'i güncellemen gerekir.
 
+## LICENCE
+MIT
+
 
 ### Frontend
 npx http-server
